@@ -1,0 +1,15 @@
+# Initial dataset-audit dependencies
+numpy
+pandas
+matplotlib
+Pillow
+scikit-learn
+
+# Added later when the CT/MRI training pipeline is finalized:
+# torch
+# torchvision
+# opencv-python
+# pydicom
+# albumentations
+# grad-cam
+# shap

@@ -1,0 +1,10 @@
+split,class,images,cases
+train,hemorrhagic,985,573
+train,ischemic,977,581
+train,normal,985,852
+validation,hemorrhagic,200,123
+validation,ischemic,211,124
+validation,normal,210,183
+test,hemorrhagic,215,123
+test,ischemic,212,124
+test,normal,205,183

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ML model artifacts
+*.pt
+*.pth
+*.onnx
+models/*
+!models/.gitkeep
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Dataset metadata and split manifests
+data/metadata/*
+!data/metadata/.gitkeep
+
+data/splits/*
+!data/splits/.gitkeep
+!data/splits/*.csv
+
+# Generated inspection images
+data/inspection/*
+!data/inspection/.gitkeep
+
+# Experiments
+experiments/*
+!experiments/.gitkeep
+
+# Frontend
+node_modules/
+dist/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
